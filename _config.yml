@@ -110,7 +110,14 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-
+  #-docs
+   # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      sidebar:
+        nav: "docs"
 
 category_archive:
   type: liquid
