@@ -113,13 +113,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
-  #-docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
+
+sidebar:
+  nav: "docs"
+
 
 category_archive:
   type: liquid

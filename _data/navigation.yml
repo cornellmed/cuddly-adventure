@@ -8,7 +8,6 @@ main:
   - title: "About"
     url: /about/
 
-
 docs:
   - title: Getting Started
     children:
