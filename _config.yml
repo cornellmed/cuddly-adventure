@@ -93,6 +93,8 @@ footer:
       url: "https://instagram.com/"
 
 defaults:
+  sidebar:
+    nav: "docs"
   # _posts
   - scope:
       path: ""
@@ -100,6 +102,8 @@ defaults:
     values:
       layout: single
       author_profile: false #T to false
+      sidebar: #navigate
+        nav: "docs"
       read_time: true
       comments: true
       share: true
@@ -113,9 +117,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
+      sidebar: #navigate
+        nav: "docs"
 
-sidebar:
-  nav: "docs"
+
 
 
 category_archive:
