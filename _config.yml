@@ -19,9 +19,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+#twitter_username: username
+#github_username: username
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
 #Baseurl
@@ -96,12 +96,14 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false #T to false
       read_time: true
       comments: true
       share: true
       related: true
       read_time: false
+      sidebar:
+        nav: "docs"
   # _pages
   - scope:
       path: "_pages"
@@ -110,8 +112,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: false
+      sidebar:
+        nav: "docs"
   #-docs
-   # _docs
   - scope:
       path: ""
       type: docs
