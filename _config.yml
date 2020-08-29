@@ -38,7 +38,6 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 Logo: "assets/images/WCMsquare.png"
 
-
 include:
   - _pages
 
@@ -93,8 +92,6 @@ footer:
       url: "https://instagram.com/"
 
 defaults:
-  sidebar:
-    nav: "docs"
   # _posts
   - scope:
       path: ""
@@ -119,7 +116,6 @@ defaults:
       read_time: false
       sidebar: #navigate
         nav: "docs"
-
 
 
 

@@ -1,12 +1,12 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
+  - title: "MR"
     url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "CIMA"
+    url: /docs/quick-start-guide/
+  - title: "LIC"
+    url: /year-archive/
+  - title: "Payson"
+    url: /categories/
 
 docs:
   - title: Getting Started
